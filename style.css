@@ -132,8 +132,6 @@ nav.container {
 padding-top: 15px;
 padding-bottom: 15px;
 }
-
-```
 .hero {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -142,10 +140,20 @@ padding-bottom: 15px;
 .hero h1 {
     font-size: 32px;
 }
-
 .nav-links {
     gap: 12px;
 }
-```
+/* Skills Section */
+.skills-list {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
 
+.skill {
+    background-color: #e0e7ff;
+    color: #3730a3;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
 }
